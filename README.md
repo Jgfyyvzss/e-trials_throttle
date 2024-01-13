@@ -1,5 +1,5 @@
 # e-trials_throttle
-This project is the development of a Teensy 4.0 based microcontroller to go between the throttle and main motor controller on an e-trials bike.
+This project is the development of a [Teensy 4.0](https://www.pjrc.com/store/teensy40.html) based microcontroller to go between the throttle and main motor controller on an e-trials bike.
 
 The Teensy manages throttle smoothing and provides a 'virtual flywheel' effect by applying torque to force the motor to follow a pre-determined RPM decay rate when the throttle is closed.
 
