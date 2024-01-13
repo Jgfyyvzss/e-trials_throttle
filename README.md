@@ -14,5 +14,5 @@ The process as envisaged is:
 * Read throttle input. If it is reducing then switch to routine to maintain the pre-determined RPM decay rate.
 * Read motor RPM and calculate the inertia in the 'virtual flywheel'.
 * From the calculated inertia set a maximum throttle signal limit that can be sent to the main controller.
-* Calculate the current RPM decay rate and compare to the set rate.
+* Calculate the current RPM decay rate and compare to the target rate.
 * If RPM is decaying faster than the set rate, then apply throttle proportional to the difference between the two rates.
