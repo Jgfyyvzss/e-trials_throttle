@@ -36,4 +36,5 @@
 // RPM1 = RPM
 // Wait for 100ms
 // Read RPM
-// 
+// PowerDelivered = MomentI*((RPM1-RPM)/9.55)^2
+// EPowerDelivered = 
